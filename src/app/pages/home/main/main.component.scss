@@ -1,0 +1,27 @@
+.main-section {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 0 40px;
+  color: #330d04;
+  font-family: "Lato", sans-serif;
+  margin-top: 50px;
+}
+
+.main-content {
+  align-self: center;
+
+  h1 {
+    font: 800 28px/1.125 "Lato", sans-serif;
+  }
+  h2 {
+    font: 700 24px "Lato", sans-serif;
+  }
+  p {
+    font: 500 18px/1.5 "Lato", sans-serif;
+  }
+}
+.mouse {
+  display: flex;
+  justify-content: center;
+  margin: 160px 0;
+}

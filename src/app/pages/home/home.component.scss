@@ -1,0 +1,17 @@
+.home {
+  position: relative;
+  width: 20%;
+  height: 20%;
+}
+.bg {
+  z-index: -10000;
+  position: absolute;
+  top: -200px;
+  left: 0px;
+}
+
+@media (max-width: 767px) {
+  .home {
+    display: none;
+  }
+}

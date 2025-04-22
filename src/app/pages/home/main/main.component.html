@@ -1,0 +1,26 @@
+<main>
+  <div class="container main-section">
+    <div class="main-content">
+      <h1>GRUPO DE PROTEÇÃO AOS ANIMAIS DE IMPERATRIZ-MA</h1>
+      <h2>Queremos um futuro com menos abandono e mais cuidados</h2>
+      <p>
+        Na ONG GPAI acreditamos que castrar é um ato de amor e consciência.
+        Tralhamos para disseminar informação clara sobre os benefícios da
+        castração, promovendo descontos em clinicas parceiras e levamos
+        palestras às escolas para educar desde cedo sobre a importância da
+        guarda responsável.
+      </p>
+      <button class="btn-main">Faça uma doação</button>
+    </div>
+    <picture>
+      <img [src]="animalsBackground" alt="gato e cachorro" />
+    </picture>
+  </div>
+  <div class="mouse">
+    <ng-lottie
+      [options]="options"
+      (animationCreated)="animationCreated($event)"
+      alt="deslize para baixo"
+    />
+  </div>
+</main>
