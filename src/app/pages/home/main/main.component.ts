@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { AnimationItem } from 'lottie-web';
 import { LottieComponent, AnimationOptions } from 'ngx-lottie';
+import { ButtonComponent } from '../../../shared/button/button.component';
 
 @Component({
   selector: 'app-main',
-  imports: [LottieComponent],
-  templateUrl: './main.component.html',
+  imports: [LottieComponent, ButtonComponent],
   styleUrl: './main.component.scss',
+  templateUrl: './main.component.html',
 })
 export class MainComponent {
   get animalsBackground() {
