@@ -50,19 +50,6 @@ strong {
   background-color: #330d04;
 }
 
-.btn-secondary {
-  padding: 12px;
-  background-color: #6d4c41;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-family: "Castoro", sans-serif;
-  font-size: 16px;
-}
-.btn-secondary:hover {
-  background-color: #330d04;
-}
 .bg-second {
   background-color: #6d4c41;
 }
@@ -73,6 +60,7 @@ strong {
 }
 
 ::-webkit-scrollbar-track {
+  background: none;
   border-radius: 4px;
 }
 

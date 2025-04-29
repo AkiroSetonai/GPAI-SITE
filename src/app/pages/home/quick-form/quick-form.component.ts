@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-quick-form',
   imports: [],
   templateUrl: './quick-form.component.html',
-  styleUrl: './quick-form.component.scss'
+  styleUrl: './quick-form.component.scss',
 })
-export class QuickFormComponent {
-
-}
+export class QuickFormComponent {}
