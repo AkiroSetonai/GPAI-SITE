@@ -1,1 +1,26 @@
-<p>card works!</p>
+<section class="container">
+  <h2>Animais Adotados</h2>
+  <p>O GPAI também incentiva a adoção através do nosso Instagram</p>
+
+  <div class="slider-wrapper">
+    <div class="slider-track">
+      <div
+        class="card"
+        *ngFor="let image of images; let i = index"
+        [ngClass]="{ active: i === currentIndex }"
+        (click)="goToSlide(i)"
+      >
+        <img [src]="image.src" [alt]="image.alt" />
+      </div>
+    </div>
+
+    <div class="dots-container">
+      <div
+        *ngFor="let img of images; let i = index"
+        class="dot"
+        [class.active-dot]="i === currentIndex"
+        (click)="goToSlide(i)"
+      ></div>
+    </div>
+  </div>
+</section>
